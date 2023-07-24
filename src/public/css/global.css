@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+}
+
+:root {
+  --backgroundPage: #0b0c10;
+  --aquaBlue: #38c0d0;
+  --titleColor: #6e6d6d;
+  --purple: #35376e;
+  --aquaBlueDark: #127d8a;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+span {
+  font-weight: bold;
+  color: var(--aquaBlue);
+}
