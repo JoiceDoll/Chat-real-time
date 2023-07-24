@@ -9,18 +9,10 @@ const welcomeUsername = document.querySelector(".welcome-message");
 const userValue = [];
 
 function getUsername() {
-  let username = usernameValue.value;
-
-  if (username) {
-    initialBackground.style.display = "none";
-    userValue.push(username);
-    welcomeUsername.innerHTML = `Olá ${username} &#128075;`;
-  } else {
-    username = "Anonymous";
-    initialBackground.style.display = "none";
-    userValue.push(username);
-    welcomeUsername.innerHTML = `Olá ${username} &#128075;`;
-  }
+  let username = usernameValue.value || "Anonymous";
+  initialBackground.style.display = "none";
+  userValue.push(username);
+  welcomeUsername.innerHTML = `Olá ${username} &#128075;`;
 }
 
 submitUsernameValue.addEventListener("click", (e) => {
