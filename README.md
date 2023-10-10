@@ -1,5 +1,6 @@
 # This is a real time chat 🚀
 Use node server.js inside src to run.
+(npm install) to download packages
 
 Project created using:
 
