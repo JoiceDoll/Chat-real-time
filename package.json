@@ -4,7 +4,8 @@
   "description": "Project with  node.js, handlebars, css3 and socket.io",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/server.js"
   },
   "author": "Joice-Doll",
   "license": "ISC",
